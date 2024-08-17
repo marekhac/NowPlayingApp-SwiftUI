@@ -26,3 +26,6 @@ Find your API key for TMDB (you can generate it
 * To Live and Die in L.A. (1985)
 
 Here is the demo.
+
+https://github.com/user-attachments/assets/897a2589-4cb3-4734-98d2-4cac754159ce
+
