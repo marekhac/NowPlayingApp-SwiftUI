@@ -21,6 +21,8 @@
 		F42C87BA2C6F59EE001C17B6 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C87B92C6F59EE001C17B6 /* Color+Extension.swift */; };
 		F42C87BD2C6F64EE001C17B6 /* FavoriteMoviesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C87BC2C6F64EE001C17B6 /* FavoriteMoviesManager.swift */; };
 		F42C87C02C6F678E001C17B6 /* FavouriteMoviesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C87BF2C6F678E001C17B6 /* FavouriteMoviesProtocol.swift */; };
+		F4D7B4CC2C8EF84F0025C752 /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7B4CB2C8EF84F0025C752 /* URLSessionProtocol.swift */; };
+		F4D7B4D02C8EF8AE0025C752 /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7B4CF2C8EF8AE0025C752 /* NetworkProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		F42C87B92C6F59EE001C17B6 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		F42C87BC2C6F64EE001C17B6 /* FavoriteMoviesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMoviesManager.swift; sourceTree = "<group>"; };
 		F42C87BF2C6F678E001C17B6 /* FavouriteMoviesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteMoviesProtocol.swift; sourceTree = "<group>"; };
+		F4D7B4CB2C8EF84F0025C752 /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
+		F4D7B4CF2C8EF8AE0025C752 /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +177,8 @@
 			isa = PBXGroup;
 			children = (
 				F42C87BF2C6F678E001C17B6 /* FavouriteMoviesProtocol.swift */,
+				F4D7B4CB2C8EF84F0025C752 /* URLSessionProtocol.swift */,
+				F4D7B4CF2C8EF8AE0025C752 /* NetworkProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -255,7 +261,9 @@
 				F42C87BD2C6F64EE001C17B6 /* FavoriteMoviesManager.swift in Sources */,
 				F403FE012C6E04B100BD0E6D /* NetworkManager.swift in Sources */,
 				F42C87BA2C6F59EE001C17B6 /* Color+Extension.swift in Sources */,
+				F4D7B4CC2C8EF84F0025C752 /* URLSessionProtocol.swift in Sources */,
 				F41EF4152C6E96BE001676B9 /* VoteAverageStarsView.swift in Sources */,
+				F4D7B4D02C8EF8AE0025C752 /* NetworkProtocol.swift in Sources */,
 				F403FDFD2C6E04B100BD0E6D /* MovieResponse.swift in Sources */,
 				F42C87C02C6F678E001C17B6 /* FavouriteMoviesProtocol.swift in Sources */,
 				F403FDE62C6E048300BD0E6D /* NowPlayingApp.swift in Sources */,

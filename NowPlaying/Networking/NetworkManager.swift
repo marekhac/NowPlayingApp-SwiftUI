@@ -7,11 +7,17 @@
 
 import Foundation
 
-class NetworkManager {
+class NetworkManager: NetworkProtocol {
     
     let apiKey = ""
     let baseURL = "https://api.themoviedb.org/3"
     static let posterImageBaseURL = "https://image.tmdb.org/t/p/w500/"
+    
+    private let session: URLSessionProtocol
+    
+    init(session: URLSessionProtocol = URLSession.shared) {
+        self.session = session
+    }
     
     func buildURLRequest(_ path: String, _ parameters: [String:Any]) -> URLRequest
     {
@@ -38,7 +44,7 @@ class NetworkManager {
     }
 
     func get(request: URLRequest) async throws -> Data? {
-        let (data, _) = try await URLSession.shared.data(for: request)
+        let (data, _) = try await session.data(for: request)
         return data
     }
     
